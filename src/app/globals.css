@@ -2,23 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl();
+}
+.dark {
+  --background: #2e2e2e;
+  --foreground: #fcfffc;
+  
+} */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base Colors */
+  --forest-green: hsl(120, 60%, 25%);
+  --olive-green: hsl(75, 38%, 45%);
+  --off-white: hsl(60, 100%, 96%);
+  --dark-brown: hsl(30, 40%, 20%);
+  --gold: hsl(45, 85%, 50%);
+  --light-gray: hsl(0, 0%, 85%);
+  
+  /* Light Theme */
+  --background: var(--off-white);
+  --foreground: var(--dark-brown);
+  --primary: var(--forest-green);
+  --secondary: var(--olive-green);
+  --accent: var(--gold);
+  --border-color: var(--light-gray);
+  
+  /* Typography */
+  --heading-color: var(--dark-brown);
+  --body-text-color: var(--dark-brown);
+  
+  /* Buttons */
+  --button-bg: var(--primary);
+  --button-text: var(--off-white);
+  --button-border: var(--primary);
+  --button-hover-bg: var(--secondary);
+  --button-hover-border: var(--secondary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  /* Dark Theme */
+  --background: hsl(210, 30%, 8%);
+  --foreground: var(--off-white);
+  --primary: var(--olive-green);
+  --secondary: var(--forest-green);
+  --accent: var(--gold);
+  --border-color: hsl(0, 0%, 20%);
+  
+  /* Typography */
+  --heading-color: var(--off-white);
+  --body-text-color: var(--light-gray);
+  
+  /* Buttons */
+  --button-bg: var(--primary);
+  --button-text: var(--off-white);
+  --button-border: var(--primary);
+  --button-hover-bg: var(--secondary);
+  --button-hover-border: var(--secondary);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+
 
 @layer utilities {
   .text-balance {
