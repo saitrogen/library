@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "../components/sections/Header";
 import Footer from "../components/sections/Footer";
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Amal Library",
@@ -15,9 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-background text-foreground">
+      <body className="bg-primary">
         <Header />
-        <main>{children}</main>
+        <section className="container mx-auto flex flex-row">{children}</section>
         <Footer/>
       </body>
     </html>

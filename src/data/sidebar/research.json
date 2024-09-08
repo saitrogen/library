@@ -1,0 +1,23 @@
+ [{
+      "title": "Research Assist",
+      "children": [
+        { "sub": "Dissertations" },
+        { "sub": "N-List" },
+        { "sub": "Shodhganga" },
+        { "sub": "Inflibnet" },
+        { "sub": "e-PGPathshala" }
+      ]
+    },
+    {
+      "title": "Guides",
+      "children": [
+        { "sub": "Research Guides" }
+      ]
+    },
+    {
+      "title": "Workshops",
+      "children": [
+        { "sub": "Workshops & Seminars" }
+      ]
+    }
+  ]

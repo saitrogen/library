@@ -1,0 +1,38 @@
+ [
+    {
+      "title": "Digital Library",
+      "children": [
+        { "sub": "Dspace" },
+        { "sub": "E-books" },
+        { "sub": "E-Journals" },
+        { "sub": "E-paper" },
+        { "sub": "Makthabathu Shamila" },
+        { "sub": "Jamie Kutub Musawwara" },
+        { "sub": "Wall Magazine" }
+      ]
+    },
+    {
+      "title": "Open Resources",
+      "children": [
+        { "sub": "Arabic Newspaper" },
+        { "sub": "Google Scholar" },
+        { "sub": "Swayam" },
+        { "sub": "Arabic Talking Stories" },
+        { "sub": "Arabic Literature" },
+        { "sub": "E-Documents" },
+        { "sub": "Calicut University Arabic Department" }
+      ]
+    },
+    {
+      "title": "Open Resources",
+      "children": [
+        { "sub": "Arabic Newspaper" },
+        { "sub": "Google Scholar" },
+        { "sub": "Swayam" },
+        { "sub": "Arabic Talking Stories" },
+        { "sub": "Arabic Literature" },
+        { "sub": "E-Documents" },
+        { "sub": "Calicut University Arabic Department" }
+      ]
+    }
+  ]

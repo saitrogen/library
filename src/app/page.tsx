@@ -1,9 +1,10 @@
 
+
 export default function Home() {
   return (
-    <div>
-      
-      </div>
+    <div className="">
+      <nav></nav>
+    </div>
 
   );
 }

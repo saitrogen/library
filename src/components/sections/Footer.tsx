@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram } from "lucide-react"; // Icons from Lucid
 
 const Footer = () => {
   return (
-    <footer className="bg-dark-brown text-foreground py-8">
+    <footer className="bg-primary text-foreground border-t border-neutral-500 py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
         {/* Quick Links */}
         <div>

@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Home",
+    "children": [
+      {
+        "name": "Overview",
+        "children": [
+          { "name": "Library Overview" },
+          { "name": "Announcements" },
+          { "name": "Featured Resources" }
+        ]
+      },
+      {
+        "name": "Events",
+        "children": [
+          { "name": "Library Events" },
+          { "name": "Photo Gallery" },
+          { "name": "Video Gallery" },
+          { "name": "Library User Award" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "About",
+    "children": [
+      { "name": "Library Overview" },
+      {
+        "name": "Sections",
+        "children": [
+          { "name": "Library Sections" },
+          { "name": "Acquisition Section" }
+        ]
+      },
+      {
+        "name": "Hours",
+        "children": [
+          { "name": "Working Hours" },
+          { "name": "Opening Hours" }
+        ]
+      },
+      { "name": "Facilities" },
+      {
+        "name": "Library Facilities"
+      },
+      {
+        "name": "Policies",
+        "children": [
+          { "name": "Library Rules" },
+          { "name": "Library Services" }
+        ]
+      },
+      {
+        "name": "Membership",
+        "children": [
+          { "name": "Membership Information" }
+        ]
+      },
+      {
+        "name": "Staff",
+        "children": [
+          { "name": "Library Staff" },
+          { "name": "Library Committee" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Resources",
+    "children": [
+      {
+        "name": "Digital Library",
+        "children": [
+          { "name": "Dspace" },
+          { "name": "E-books" },
+          { "name": "E-Journals" },
+          { "name": "E-paper" },
+          { "name": "Makthabathu Shamila" },
+          { "name": "Jamie Kutub Musawwara" },
+          { "name": "Wall Magazine" }
+        ]
+      },
+      {
+        "name": "Open Resources",
+        "children": [
+          { "name": "Arabic Newspaper" },
+          { "name": "Google Scholar" },
+          { "name": "Swayam" },
+          { "name": "Arabic Talking Stories" },
+          { "name": "Arabic Literature" },
+          { "name": "E-Documents" },
+          { "name": "Calicut University Arabic Department" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Research",
+    "children": [
+      {
+        "name": "Research Assist",
+        "children": [
+          { "name": "Dissertations" },
+          { "name": "N-List" },
+          { "name": "Shodhganga" },
+          { "name": "Inflibnet" },
+          { "name": "e-PGPathshala" }
+        ]
+      },
+      {
+        "name": "Guides",
+        "children": [
+          { "name": "Research Guides" }
+        ]
+      },
+      {
+        "name": "Workshops",
+        "children": [
+          { "name": "Workshops & Seminars" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Account",
+    "children": [
+      {
+        "name": "Career",
+        "children": [
+          { "name": "K-Tet" },
+          { "name": "NTA-NET" },
+          { "name": "SET-Exam" },
+          { "name": "PSC Kerala" },
+          { "name": "Scholarship" }
+        ]
+      },
+      {
+        "name": "Syllabus",
+        "children": [
+          {
+            "name": "Question Paper & Syllabus",
+            "children": [
+              { "name": "AFSAL UL ULAMA PRELIMINARY I" },
+              { "name": "AFSAL UL ULAMA PRELIMINARY II" },
+              { "name": "BA AFSAL UL ULAMA" },
+              { "name": "BA FUNCTIONAL ARABIC" },
+              { "name": "BA ECONOMICS" },
+              { "name": "MA POST AFSAL UL ULAMA" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Contact",
+    "children": [
+      {
+        "name": "Contact Us",
+        "children": [
+          { "name": "Ask Librarian" },
+          { "name": "General Inquiries" }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "children": [
+          { "name": "Feedback Form" }
+        ]
+      },
+      {
+        "name": "Support",
+        "children": [
+          { "name": "Donations" },
+          { "name": "Volunteer Opportunities" }
+        ]
+      }
+    ]
+  }
+]

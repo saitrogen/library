@@ -13,52 +13,35 @@
 } */
 :root {
   /* Base Colors */
-  --forest-green: hsl(120, 60%, 25%);
+
+  /* --forest-green: hsl(129, 16%, 83%);
   --olive-green: hsl(75, 38%, 45%);
   --off-white: hsl(60, 100%, 96%);
-  --dark-brown: hsl(30, 40%, 20%);
+  --dark-brown: hsl(120,60%,25%);
   --gold: hsl(45, 85%, 50%);
-  --light-gray: hsl(0, 0%, 85%);
+  --light-gray: hsl(0, 0%, 85%); */
   
-  /* Light Theme */
-  --background: var(--off-white);
-  --foreground: var(--dark-brown);
-  --primary: var(--forest-green);
-  --secondary: var(--olive-green);
-  --accent: var(--gold);
-  --border-color: var(--light-gray);
+  --primary: hsl(151, 24%, 20%);/*deep forest green:*/
+  --secondary:hsl(150, 27%, 52%);/*medium green:*/
+  --neutral-1:hsl(132, 33%, 95%);/*off white:*/
+  --neutral-2:hsl(10, 4%, 43%);/*warm gray:*/
+  --neutral-3:hsl(18, 10%, 81%); /*Light Gray:*/
+  --accent:hsl(152, 24%, 78%);/*Soft Mint Green*/
+  --background:var(--neutral-1);
+  --foreground:var(--neutral-2);
+
   
-  /* Typography */
-  --heading-color: var(--dark-brown);
-  --body-text-color: var(--dark-brown);
-  
-  /* Buttons */
-  --button-bg: var(--primary);
-  --button-text: var(--off-white);
-  --button-border: var(--primary);
-  --button-hover-bg: var(--secondary);
-  --button-hover-border: var(--secondary);
 }
 
 .dark {
-  /* Dark Theme */
-  --background: hsl(210, 30%, 8%);
-  --foreground: var(--off-white);
-  --primary: var(--olive-green);
-  --secondary: var(--forest-green);
-  --accent: var(--gold);
-  --border-color: hsl(0, 0%, 20%);
-  
-  /* Typography */
-  --heading-color: var(--off-white);
-  --body-text-color: var(--light-gray);
-  
-  /* Buttons */
-  --button-bg: var(--primary);
-  --button-text: var(--off-white);
-  --button-border: var(--primary);
-  --button-hover-bg: var(--secondary);
-  --button-hover-border: var(--secondary);
+  --primary: hsl(151, 24%, 20%);/*deep forest green:*/
+  --secondary:hsl(150, 27%, 52%);/*medium green:*/
+  --neutral-1:hsl(132, 33%, 95%);/*off white:*/
+  --neutral-2:hsl(10, 4%, 43%);/*warm gray:*/
+  --neutral-3:hsl(18, 10%, 81%); /*Light Gray:*/
+  --accent:hsl(152, 24%, 78%);/*Soft Mint Green*/
+  --background:var(--neutral-2);
+  --foreground:var(--neutral-1);
 }
 
 
