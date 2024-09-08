@@ -1,7 +1,7 @@
 
 import React from "react";
 import Link from "next/link";
-import resources from "../../data/sidebar/resources.json"
+import data from "../../data/sidebar/resources.json"
 
 
 
@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <><nav className="overflow-auto">
       
-      {resources.map((item) => (
+      {data.map((item) => (
         <>
         <h5 className=" mt-8 mb-8 lg:mb-3 font-semibold text-md text-slate-900 dark:text-emerald-200">{item.title}</h5>
         <ul className="space-y-6 lg:space-y-2 border-l border-slate-100 dark:border-emerald-700 text-sm">
