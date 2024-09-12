@@ -27,7 +27,7 @@ const Header = () => {
   );
 
   return (
-    <header className="bg-primary text-foreground border-b border-neutral-500 ">
+    <header className="bg-primary text-foreground border-b border-neutral-500 sticky top-0 ">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo and Name */}
         <div className=" font-bold">

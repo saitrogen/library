@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <>
       <nav className="overflow-auto">
-        <ul>
+        <ul className="mb-8">
           {data.map((item) => (
 
             <li key={item.title}>

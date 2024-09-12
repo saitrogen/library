@@ -3,6 +3,7 @@ import data  from "../../../data/sidebar/resources.json";
 export default function page() {
   return (
     <>
+    <div className="overflow-y-auto">
       {data.map((item, index) => (
         <div key={index} className="mx-auto p-4">
           <h2 className="text-3xl font-bold mb-4 text-emerald-200">{item.title}</h2>
@@ -36,6 +37,7 @@ export default function page() {
           )}
         </div>
       ))}
+      </div>
     </>
   );
 }

@@ -7,15 +7,16 @@ export default function layout({
 }>) {
   return (
     <>
-    <div className="hidden lg:block p-4 h-screen overflow-auto">
-      
-      <Sidebar/>
+      <aside className=" hidden lg:block p-4 overflow-y-auto ">
 
-    </div>
-    <main className="container mx-auto  overflow-x-auto">
-      {children}
-    </main>
+        <Sidebar />
+
+      </aside>
+      <main className="container mx-auto overflow-y-auto  ">
+        {children}
+      </main>
+    
     </>
-  
+
   );
 }

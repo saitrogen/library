@@ -16,10 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-primary">
+      <body className="bg-primary overflow-hidden">
         <Header />
-        <section className="container mx-auto flex flex-row h-screen">{children}</section>
-        <Footer/>
+        <section className="container mx-auto flex flex-col md:flex-row max-h-screen overflow-y-auto">{children}</section>
+        
       </body>
     </html>
   );
