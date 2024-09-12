@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo and Name */}
         <div className=" font-bold">
-          <Link href="/" className="text-foreground text-2xl lg:text-3xl">
+          <Link href="/" className="text-foreground text-4xl sm:text-2xl lg:text-4xl">
             Amal Library
           </Link>
         </div>

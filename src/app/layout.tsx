@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className="bg-primary">
         <Header />
-        <section className="container mx-auto flex flex-row">{children}</section>
+        <section className="container mx-auto flex flex-row h-screen">{children}</section>
         <Footer/>
       </body>
     </html>

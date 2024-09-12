@@ -12,7 +12,9 @@ export default function layout({
       <Sidebar/>
 
     </div>
+    <main className="container mx-auto  overflow-x-auto">
       {children}
+    </main>
     </>
   
   );
